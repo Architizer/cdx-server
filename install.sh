@@ -1,8 +1,8 @@
 #!/bin/bash
 
 INDEX=$1
-AWS_PUBLIC_DS="https://aws-publicdatasets.s3.amazonaws.com"
-CC="common-crawl/cc-index/collections"
+AWS_PUBLIC_DS="https://s3.amazonaws.com"
+CC="commoncrawl/cc-index/collections"
 
 if [ ! -d "collections" ]; then
     mkdir collections
